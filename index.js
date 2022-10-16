@@ -1,4 +1,4 @@
-$(document).ready(function () { // function that would run when document is loaded
+$(document).ready(function () {
     $("#add").click(function (event) {
         event.preventDefault();
         const todo = $("#todo-input").val();
